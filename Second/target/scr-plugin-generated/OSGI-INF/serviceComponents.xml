@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="hello-service2">
+        <implementation class="com.second.Second"/>
+        <service servicefactory="false">
+            <provide interface="com.interfaces.InExample"/>
+        </service>
+        <property name="service.pid" value="hello-service2"/>
+    </scr:component>
+</components>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="consumer">
+        <implementation class="com.consumer.Consumer"/>
+        <service servicefactory="false">
+            <provide interface="com.iconsumer.IConsumer"/>
+            <provide interface="com.vaadin.terminal.Scrollable"/>
+            <provide interface="java.io.Serializable"/>
+            <provide interface="com.vaadin.ui.ComponentContainer$ComponentAttachListener"/>
+            <provide interface="com.vaadin.ui.ComponentContainer$ComponentDetachListener"/>
+            <provide interface="com.vaadin.event.Action$Notifier"/>
+            <provide interface="com.vaadin.event.Action$Container"/>
+            <provide interface="com.vaadin.ui.Component$Focusable"/>
+            <provide interface="com.vaadin.ui.Component"/>
+            <provide interface="com.vaadin.terminal.Paintable"/>
+            <provide interface="java.util.EventListener"/>
+            <provide interface="com.vaadin.terminal.VariableOwner"/>
+            <provide interface="com.vaadin.terminal.Sizeable"/>
+            <provide interface="com.vaadin.ui.ComponentContainer"/>
+            <provide interface="com.vaadin.event.MethodEventSource"/>
+        </service>
+        <property name="service.pid" value="consumer" private="false"/>
+        <reference name="consumer" interface="com.interfaces.InExample" cardinality="0..n" policy="static" bind="bind" unbind="unbind" checked="true" strategy="event"/>
+    </scr:component>
+</components>

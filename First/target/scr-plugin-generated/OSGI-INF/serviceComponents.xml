@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="hello-service">
+        <implementation class="com.ipl.ImExample"/>
+        <service servicefactory="false">
+            <provide interface="com.interfaces.InExample"/>
+        </service>
+        <property name="service.pid" value="hello-service"/>
+        <reference name="hello" interface="com.interfaces.InExample" cardinality="0..n" policy="dynamic" bind="bind" unbind="unbind"/>
+    </scr:component>
+</components>

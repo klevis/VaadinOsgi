@@ -1,0 +1,31 @@
+#surefire
+#Wed Aug 24 23:56:35 CEST 2011
+testClassesDirectory=D\:\\OSGI_FULL_SOLUTION\\simple_client\\target\\test-classes
+classPathUrl.4=C\:\\Users\\euronics\\.m2\\repository\\org\\osgi\\org.osgi.compendium\\4.2.0\\org.osgi.compendium-4.2.0.jar
+classPathUrl.3=C\:\\Users\\euronics\\.m2\\repository\\org\\osgi\\org.osgi.core\\4.2.0\\org.osgi.core-4.2.0.jar
+classPathUrl.2=C\:\\Users\\euronics\\.m2\\repository\\eclipsecon2011\\osgieehol\\common\\1.0-SNAPSHOT\\common-1.0-SNAPSHOT.jar
+useManifestOnlyJar=true
+classPathUrl.1=D\:\\OSGI_FULL_SOLUTION\\simple_client\\target\\classes
+reportsDirectory=D\:\\OSGI_FULL_SOLUTION\\simple_client\\target\\surefire-reports
+classPathUrl.0=D\:\\OSGI_FULL_SOLUTION\\simple_client\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=D\:\\OSGI_FULL_SOLUTION\\simple_client\\src\\test\\java
+surefireClassPathUrl.1=C\:\\Users\\euronics\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=C\:\\Users\\euronics\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit3\\2.7.1\\surefire-junit3-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=D\:\\OSGI_FULL_SOLUTION\\simple_client\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+includes0=**/Test*.java
+childDelegation=false
+classPathUrl.6=C\:\\Users\\euronics\\.m2\\repository\\javax\\javaee-web-api\\6.0\\javaee-web-api-6.0.jar
+classPathUrl.5=C\:\\Users\\euronics\\.m2\\repository\\org\\glassfish\\osgi-cdi-api\\3.1-b41\\osgi-cdi-api-3.1-b41.jar

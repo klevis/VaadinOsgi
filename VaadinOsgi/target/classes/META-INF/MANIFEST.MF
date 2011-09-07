@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: euronics
+Build-Jdk: 1.6.0_25
+Bundle-Version: 0.0.1.SNAPSHOT
+Tool: Bnd-1.15.0
+Bundle-Name: VaadinOsgi
+Bnd-LastModified: 1314569597189
+Created-By: Apache Maven Bundle Plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: OsgiMaven.VaadinOsgi
+Web-ContextPath: /web_client_vaadin
+Import-Package: com.iconsumer;version="[0.0,1)",com.interfaces;version
+ ="[0.0,1)",com.vaadin,com.vaadin.terminal.gwt.server,com.vaadin.ui,ec
+ lipsecon2011.osgieehol.simple_service.impl,javax.inject,javax.servlet
+ ,javax.servlet.annotation,javax.servlet.http,org.glassfish.osgicdi;ve
+ rsion="[1.0,2)",org.osgi.framework;version="[1.5,2)"
+
